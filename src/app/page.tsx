@@ -15,7 +15,9 @@ export default function Home() {
           })}
         </div>
       </main>
-      <Footer />
+      <div className="pb-2">
+        <Footer />
+      </div>
     </>
   );
 }
