@@ -1,6 +1,6 @@
 # Countdown Timer
 
-This is a countdown timer based on my event `(app/components/event.ts)` updated from `tokanoon (past website)`
+This is a countdown timer based on my event `(src/components/event.ts)` updated from `tokanoon (past website)`
 
 ## Getting Started
 
