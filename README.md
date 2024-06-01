@@ -18,4 +18,4 @@ bun dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the event by modifying `app/components/event.ts` and the image by uploading to `app/public`. The page auto-updates as you edit the file.
+You can start editing the event by modifying `src/components/event.ts` and the image by uploading to `public`. The page auto-updates as you edit the file.
