@@ -23,7 +23,7 @@ export default function Home() {
       <main
         className={clsx(
           `bg-gradient-to-t ${dateColor}`,
-          "flex items-center justify-center min-h-screen py-10 w-full"
+          "flex flex-col items-center justify-center min-h-screen py-10 w-full"
         )}
       >
         <div className="flex flex-col items-center justify-center max-w-md space-y-6">
@@ -34,10 +34,10 @@ export default function Home() {
             return <CountdownCard key={index} {...event} />;
           })}
         </div>
+        <div className="pb-2">
+          <Footer />
+        </div>
       </main>
-      <div className="pb-2">
-        <Footer />
-      </div>
     </>
   );
 }

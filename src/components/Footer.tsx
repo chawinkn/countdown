@@ -21,11 +21,16 @@ function GithubIcon() {
 
 export default function Footer() {
   return (
-    <div className="z-50 flex flex-col px-8 py-5 text-sm md:py-3 md:px-16 lg:px-24 text-white">
-      <div className="flex flex-col items-center justify-center md:flex-row md:justify-between">
-        <p>Crafted by 🧑‍💻👾</p>
-        <div className="flex flex-row items-center mt-5 space-x-5 md:mt-0">
-          <Link href="https://github.com/chawinkn/countdown">
+    <div className="flex flex-col px-8 pt-8 text-sm text-white">
+      <div className="flex flex-col items-center justify-center">
+        <p>
+          Crafted by{" "}
+          <Link href="https://github.com/chawinkn" target="_blank">
+            chawinkn
+          </Link>
+        </p>
+        <div className="flex flex-row items-center mt-2 space-x-5">
+          <Link href="https://github.com/chawinkn/countdown" target="_blank">
             <GithubIcon />
           </Link>
         </div>
