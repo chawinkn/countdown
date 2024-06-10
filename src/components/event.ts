@@ -1,5 +1,11 @@
 export const Event = [
   {
+    title: "DEK-D Mock",
+    date: "Jul 6, 2024 08:30",
+    url: "https://www.dek-d.com/pre-admission/",
+    pic: "/dekd.png",
+  },
+  {
     title: "TGAT / TPAT3",
     date: "Dec 8, 2024 09:00",
     url: "https://www.mytcas.com/",
